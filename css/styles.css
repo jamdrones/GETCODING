@@ -1,10 +1,11 @@
 body {
+    box-sizing: border-box;
     margin: 0px;
     background-color: beige;
 }
 
 .pad {
-    padding: 25px;
+    padding: 10px;
 }
 
 .header {
@@ -27,16 +28,31 @@ body {
 }
 
 .main-text {
+    margin-top: 50px;
     width: 60%;
     float: left;
 }
 
 .divs {
-   
-    margin-top: 20px;
+    margin-top: 75px;
     width: 20%;
     float: left;
     background-color: white;
     border: 4px solid lightblue;
     text-align: center;
+}
+
+.pw {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+}
+.to-do input[type="button"] {
+    background-color: pink; 
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
